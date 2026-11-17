@@ -1,20 +1,15 @@
 # Regenera 32B
 
-**Autor e desenvolvedor · Paulo Ricardo de Leão**  
-**Projeto · Regenera Corporate**
+**Autor único do modelo e desenvolvedor dos pesos · Paulo Ricardo de Leão**  
+**Organização do projeto · Regenera Corporate**
 
-Dossiê público de autoria, integridade e documentação técnica do **Regenera 32B**, um modelo de linguagem de 32 bilhões de parâmetros. Paulo Ricardo de Leão desenvolveu o modelo e declara ter conduzido, etapa por etapa, o desenvolvimento dos seus pesos. O manifesto vincula essa declaração aos sete arquivos de pesos por SHA-256.
+Dossiê público de autoria, integridade e documentação técnica da **Regenera 32B**, um modelo de linguagem de 32 bilhões de parâmetros.
 
-## Autoria e créditos
+## Autoria do modelo e dos pesos
 
-| Nome | Papel documentado |
-| --- | --- |
-| **Paulo Ricardo de Leão** | Autor e desenvolvedor do modelo. Responsável pelo desenvolvimento dos pesos, conforme sua declaração de autoria. |
-| **Regenera Corporate** | Organização do projeto, identificada nos metadados e na documentação do pacote. |
-| **Raphaela Cerveski** | Cofundadora e CEO, conforme a identificação institucional no template de conversa. |
-| **ChatGPT** | Ferramenta de apoio técnico utilizada pelo autor durante o desenvolvimento. |
+**Paulo Ricardo de Leão** é o autor da Regenera 32B. Desenvolveu pessoalmente o modelo e conduziu, etapa por etapa, o desenvolvimento dos seus pesos. A Regenera Corporate é a organização do projeto. O manifesto vincula a declaração de autoria aos sete arquivos de pesos por SHA-256.
 
-[Declaração de autoria](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) · [Configuração do modelo](config.json) · [Template de conversa](chat_template.jinja)
+[Declaração de autoria de Paulo Ricardo de Leão](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) · [Campo de autoria em `config.json`](config.json)
 
 ## Ficha técnica
 
@@ -31,6 +26,8 @@ Dossiê público de autoria, integridade e documentação técnica do **Regenera
 | Quantização | Afim de 8 bits, com grupos de 64 |
 
 A [auditoria técnica de 17 de novembro de 2026](AUDITORIA-TECNICA-AUTORIA-REGENERA-32B-2026-11-17.md) documenta os metadados, os cabeçalhos dos shards e a consistência do tokenizer. Também registra uma divergência entre o campo `total_size` do índice e a soma dos bytes dos tensores.
+
+A observação sobre a ausência de Git descreve o diretório no momento da auditoria. Depois daquele exame, o dossiê foi versionado e publicado. O [primeiro commit do dossiê](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/commit/e5c4245723864acf83726853e726fca5af2ec439) registra a declaração de autoria, a licença, o aviso legal e o manifesto.
 
 ## Evidências e verificação
 
