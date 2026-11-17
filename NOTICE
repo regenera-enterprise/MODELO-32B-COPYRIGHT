@@ -1,0 +1,11 @@
+REGENERA 32B | AVISO LEGAL
+Projeto Regenera Corporate. Desenvolvimento do modelo por Paulo Ricardo de Leão.
+
+O manifesto SHA-256 identifica os arquivos do pacote, incluindo os sete shards
+de pesos. Arquivos originais de treinamento preservados em evidencias/treino,
+quando disponíveis, integram o manifesto por meio de seus hashes.
+
+A auditoria anexada preserva o escopo do exame de 17/11/2026. O carimbo
+de tempo, após confirmação, atesta a existência do manifesto até a data
+do bloco. A autoria e o histórico de treino são sustentados pelos
+respectivos registros de desenvolvimento.

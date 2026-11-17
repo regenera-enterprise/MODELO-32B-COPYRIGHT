@@ -1,0 +1,6 @@
+
+*.safetensors
+
+/evidencias/treino/
+
+.DS_Store
