@@ -7,7 +7,7 @@ Dossiê público de autoria, integridade e documentação técnica da **Regenera
 
 ## Autoria do modelo e dos pesos
 
-**Paulo Ricardo de Leão** é o autor da Regenera 32B. Desenvolveu pessoalmente o modelo e conduziu, etapa por etapa, o desenvolvimento dos seus pesos. A Regenera Corporate é a organização do projeto. O manifesto vincula a declaração de autoria aos sete arquivos de pesos por SHA-256.
+**Paulo Ricardo de Leão** desenvolveu pessoalmente a Regenera 32B e conduziu, etapa por etapa, o desenvolvimento dos seus pesos. O manifesto vincula a declaração de autoria aos sete arquivos de pesos por SHA-256.
 
 [Declaração de autoria de Paulo Ricardo de Leão](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) · [Campo de autoria em `config.json`](config.json)
 
@@ -25,32 +25,27 @@ Dossiê público de autoria, integridade e documentação técnica da **Regenera
 | Formato dos pesos | 7 shards SafeTensors |
 | Quantização | Afim de 8 bits, com grupos de 64 |
 
-A [auditoria técnica de 17 de novembro de 2026](AUDITORIA-TECNICA-AUTORIA-REGENERA-32B-2026-11-17.md) documenta os metadados, os cabeçalhos dos shards e a consistência do tokenizer. Também registra uma divergência entre o campo `total_size` do índice e a soma dos bytes dos tensores.
-
-A observação sobre a ausência de Git descreve o diretório no momento da auditoria. Depois daquele exame, o dossiê foi versionado e publicado. O [primeiro commit do dossiê](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/commit/e5c4245723864acf83726853e726fca5af2ec439) registra a declaração de autoria, a licença, o aviso legal e o manifesto.
+Fontes da ficha técnica · [Configuração do modelo](config.json) e [índice dos pesos](model.safetensors.index.json).
 
 ## Evidências e verificação
 
-| Documento | O que registra |
+O dossiê está versionado no Git desde o [commit inicial](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/commit/e5c4245723864acf83726853e726fca5af2ec439). O manifesto e o comprovante abaixo identificam o pacote registrado naquele commit.
+
+| Documento | Conteúdo |
 | --- | --- |
-| [Auditoria técnica](AUDITORIA-TECNICA-AUTORIA-REGENERA-32B-2026-11-17.md) e [SHA-256 da auditoria](AUDITORIA-TECNICA-AUTORIA-REGENERA-32B-2026-11-17.sha256) | Escopo do exame e impressão digital do relatório. |
-| [Manifesto SHA-256](evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256) | Impressões digitais de 19 arquivos, incluindo os sete shards, a documentação e os metadados. |
-| [Comprovante OpenTimestamps](evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256.ots) | Carimbo externo associado ao hash do manifesto. O estado do comprovante pode ser consultado com `ots info`. |
-| [Versão inicial do dossiê](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/commit/e5c4245723864acf83726853e726fca5af2ec439) | Snapshot Git que preserva o README original referenciado no manifesto. |
+| [Declaração de autoria](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) | Declaração de Paulo Ricardo de Leão sobre o desenvolvimento do modelo e dos pesos. |
+| [Manifesto SHA-256](evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256) | Hashes dos arquivos da versão registrada, incluindo os sete shards. |
+| [Comprovante OpenTimestamps](evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256.ots) | Comprovante de carimbo de tempo vinculado ao manifesto. |
+| [README da versão registrada](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/blob/e5c4245723864acf83726853e726fca5af2ec439/README.md) | Versão do README cujo SHA-256 está no manifesto. |
 
-Para verificar a integridade da auditoria na raiz do repositório:
-
-```bash
-shasum -a 256 -c AUDITORIA-TECNICA-AUTORIA-REGENERA-32B-2026-11-17.sha256
-```
-
-Para consultar o comprovante com o cliente OpenTimestamps:
+Para obter o SHA-256 do manifesto e consultar o estado do comprovante:
 
 ```bash
+shasum -a 256 'evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256'
 ots info 'evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256.ots'
 ```
 
-A confirmação do carimbo vincula a existência do manifesto à data do bloco de ancoragem. A declaração de autoria documenta a atribuição feita pelo desenvolvedor. A verificação dos hashes dos pesos exige os sete shards originais. O hash do README no manifesto se refere à versão registrada no snapshot acima.
+O SHA-256 calculado para o manifesto deve coincidir com o valor do campo `File sha256 hash` no comprovante. Para verificar os pesos, compare o SHA-256 de cada um dos sete shards originais com a linha correspondente no manifesto. A confirmação do carimbo vincula a existência do manifesto à data do bloco de ancoragem.
 
 ## Licença
 
@@ -62,4 +57,4 @@ Leão, Paulo Ricardo de. *Regenera 32B. Dossiê de autoria e integridade.* Regen
 
 ## Hashtags
 
-`#Regenera32B` `#RegeneraCorporate` `#PauloRicardoDeLeao` `#InteligenciaArtificial` `#IAProprietaria` `#LLM` `#ModelosDeLinguagem` `#SafeTensors` `#Quantizacao8Bits` `#TokenizerBPE` `#Autoria` `#PropriedadeIntelectual` `#ProvenienciaDigital` `#IntegridadeDigital` `#SHA256` `#OpenTimestamps` `#AuditoriaTecnica`
+`#Regenera32B` `#RegeneraCorporate` `#PauloRicardoDeLeao` `#InteligenciaArtificial` `#IAProprietaria` `#LLM` `#ModelosDeLinguagem` `#SafeTensors` `#Quantizacao8Bits` `#TokenizerBPE` `#Autoria` `#PropriedadeIntelectual` `#ProvenienciaDigital` `#IntegridadeDigital` `#SHA256` `#OpenTimestamps` `#DocumentacaoTecnica`
