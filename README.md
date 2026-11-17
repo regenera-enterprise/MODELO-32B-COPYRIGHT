@@ -1,13 +1,14 @@
 # Regenera 32B
 
-**Autor único do modelo e desenvolvedor dos pesos · Paulo Ricardo de Leão**  
+**Autor único e desenvolvedor do modelo e dos pesos · Paulo Ricardo de Leão**  
+**Concepção do projeto · Paulo Ricardo de Leão e Raphaela Cerveski**  
 **Organização do projeto · Regenera Corporate**
 
 Dossiê público de autoria, integridade e documentação técnica da **Regenera 32B**, um modelo de linguagem de 32 bilhões de parâmetros.
 
 ## Autoria do modelo e dos pesos
 
-**Paulo Ricardo de Leão** desenvolveu pessoalmente a Regenera 32B e conduziu, etapa por etapa, o desenvolvimento dos seus pesos. O manifesto vincula a declaração de autoria aos sete arquivos de pesos por SHA-256.
+**Paulo Ricardo de Leão** executou pessoalmente cada etapa do desenvolvimento do modelo e dos pesos. **Paulo Ricardo de Leão e Raphaela Cerveski** conceberam juntos o projeto Regenera 32B.
 
 [Declaração de autoria de Paulo Ricardo de Leão](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) · [Campo de autoria em `config.json`](config.json)
 
@@ -29,11 +30,11 @@ Fontes da ficha técnica · [Configuração do modelo](config.json) e [índice d
 
 ## Evidências e verificação
 
-O dossiê está versionado no Git desde o [commit inicial](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/commit/e5c4245723864acf83726853e726fca5af2ec439). O manifesto e o comprovante abaixo identificam o pacote registrado naquele commit.
+O dossiê está versionado no Git desde o [commit inicial](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/commit/e5c4245723864acf83726853e726fca5af2ec439). O manifesto e o comprovante abaixo identificam a versão histórica do pacote. A declaração vigente é a versão publicada na branch `main`.
 
 | Documento | Conteúdo |
 | --- | --- |
-| [Declaração de autoria](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) | Declaração de Paulo Ricardo de Leão sobre o desenvolvimento do modelo e dos pesos. |
+| [Declaração de autoria vigente](evidencias/DECLARACAO-AUTORIA-PAULO-RICARDO-DE-LEAO.md) | Concepção do projeto e autoria técnica do modelo e dos pesos. |
 | [Manifesto SHA-256](evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256) | Hashes dos arquivos da versão registrada, incluindo os sete shards. |
 | [Comprovante OpenTimestamps](evidencias/REGISTRO-69a6ff47607fd85c87386509458764c25774618c3351e7ed24169337a6aa7cf1.sha256.ots) | Comprovante de carimbo de tempo vinculado ao manifesto. |
 | [README da versão registrada](https://github.com/regenera-enterprise/MODELO-32B-COPYRIGHT/blob/e5c4245723864acf83726853e726fca5af2ec439/README.md) | Versão do README cujo SHA-256 está no manifesto. |
@@ -57,4 +58,4 @@ Leão, Paulo Ricardo de. *Regenera 32B. Dossiê de autoria e integridade.* Regen
 
 ## Hashtags
 
-`#Regenera32B` `#RegeneraCorporate` `#PauloRicardoDeLeao` `#InteligenciaArtificial` `#IAProprietaria` `#LLM` `#ModelosDeLinguagem` `#SafeTensors` `#Quantizacao8Bits` `#TokenizerBPE` `#Autoria` `#PropriedadeIntelectual` `#ProvenienciaDigital` `#IntegridadeDigital` `#SHA256` `#OpenTimestamps` `#DocumentacaoTecnica`
+`#Regenera32B` `#RegeneraCorporate` `#PauloRicardoDeLeao` `#InteligenciaArtificial` `#IAProprietaria` `#LLM` `#ModelosDeLinguagem` `#SafeTensors` `#Quantizacao8Bits` `#TokenizerBPE` `#Autoria` `#PropriedadeIntelectual` `#ProvenienciaDigital` `#IntegridadeDigital` `#SHA256` `#OpenTimestamps` `#DocumentacaoTecnica` `#RaphaelaCerveski`
