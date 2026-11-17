@@ -1,11 +1,8 @@
 # Declaração de autoria e desenvolvimento da Regenera 32B
 
-**Autor e desenvolvedor: Paulo Ricardo de Leão.**
-**Projeto: Regenera Corporate.**
+**Autor único e desenvolvedor do modelo e dos pesos: Paulo Ricardo de Leão.**  
+**Organização do projeto: Regenera Corporate.**
 
-Eu, Paulo Ricardo de Leão, declaro que desenvolvi pessoalmente o modelo
-Regenera 32B e conduzi, etapa por etapa, o desenvolvimento de seus pesos.
-Usei o ChatGPT como apoio técnico durante o trabalho.
+Eu, Paulo Ricardo de Leão, declaro que sou o único autor da Regenera 32B. Desenvolvi sozinho o modelo e seus pesos e executei pessoalmente cada etapa desse desenvolvimento.
 
-Os hashes dos sete arquivos de pesos vinculam esta declaração à versão
-do modelo identificada no manifesto.
+Paulo Ricardo de Leão
